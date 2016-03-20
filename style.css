@@ -1,0 +1,894 @@
+@font-face {
+  font-family: 'Pretendo';
+  src: url('http://remleyinvitational.com/fonts/pretendo-webfont.eot');
+  src: url('http://remleyinvitational.com/fonts/pretendo-webfont.woff') format('woff'), /* Modern Browsers */
+  url('http://remleyinvitational.com/fonts/pretendo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('http://remleyinvitational.com/fonts/pretendo-webfont.svg#svgPretendo') format('svg');
+  /* Legacy iOS */
+}
+
+
+body {
+  background-color: brown;
+  background-size: 1980px 760px;
+  margin: 0px auto;
+  
+    -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+  animation-direction:alternate;
+  
+  background: linear-gradient(123deg, #242866, #246626, #663f24, #66243b, #276624, #663f24, #663f24);
+background-size: 1400% 1400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 90s ease infinite;
+
+  
+}
+
+
+/*********Game Console*******************/
+
+#gameboy {
+  background-color: #cccccc;
+  position: absolute;
+  box-shadow: 0px 6px 2px #1a1a1a;
+  border: 2px ridge ;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 3%;
+  border-top-right-radius: 3%;
+  border-top-left-radius: 3%;
+  width: 500px;
+  height: 700px;
+  margin-left: 685px;
+  margin-top: -380px;
+  z-index: -1;
+
+  
+  
+}
+
+.screenborder {
+  background-color: #1a1a1a;
+  position: absolute;
+  border: 2px solid grey;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 4%;
+  border-top-right-radius: 4%;
+  border-top-left-radius: 4%;
+  width: 455px;
+  height: 360px;
+  margin-left: 707px;
+  margin-top: -326px;
+  z-index: -1;
+}
+
+
+/******D-pad Properties*******/
+
+#D-pad {
+  position: absolute;
+  margin-left: 775px;
+  margin-top: 100px;
+}
+
+/*******************************/
+
+
+.left {
+  background-color: black;
+  border: 2px solid #262626;
+  border-bottom-color: black;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  box-shadow: 4px 1px 1px;
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+  margin-top: ;
+}
+
+.spam-spam{
+  color: #999999;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: -19px;
+}
+
+/*******************************/
+
+.right {
+  background-color: black;
+  border: 2px solid #262626;
+  border-top-color: black;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  box-shadow: 4px 1px 1px;
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+
+
+.spam-n-bacon {
+  color: #999999;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 33px;
+}
+
+/*******************************/
+
+.bottom {
+  /****right****/
+  background-color: black;
+  border: 2px solid #262626;
+  border-left-color: black;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  box-shadow: 3px 2px 2px;
+  width: 30px;
+  height: 30px;
+  margin-top: -69px;
+  margin-left: 35px;
+}
+
+.spam {
+  color: #999999;
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 8px;
+}
+
+/***************************/
+
+.top {
+  background-color: black;
+  border: 2px solid #262626;
+  border-right-color: black;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
+  box-shadow: 2px 2px 2px;
+  width: 30px;
+  height: 30px;
+  margin-left: -30px;
+}
+
+.spam-n-eggs {
+  color: #999999;
+  position: absolute;
+  margin-left: -19px;
+  margin-top: 8px;
+}
+
+
+/*******************************/
+
+
+
+
+.circle {
+  border: 2px ridge #1d1d1d;
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  margin-left: 3.5px;
+  margin-top: -32px;
+  z-index: 0;
+}
+
+.square {
+  border: 2px;
+  border-top-color: black;
+  background-color: black;
+  width: 2rem;
+  height: 3rem;
+  position: absolute;
+  z-index: -1;
+  margin-left: 4px;
+  margin-top: -33px;
+}
+
+
+/***********Power Light*******************/
+
+.container {
+  margin: auto;
+}
+
+.power-light {
+  border: 2px solid red;
+  border-radius: 100%;
+  width: 1px;
+  margin-left: 740px;
+  margin-top: -190px;
+}
+
+.battery {
+  color: white;
+  margin-left: 725px;
+  margin-top: 3px;
+  font-size: 8px;
+}
+
+
+/*******Button Properties*************/
+
+.A-border {
+  background-color: #800040;
+  border: 1px ridge #262626;
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px #262626;
+  width: 43px;
+  height: 43px;
+  margin-left: 1083px;
+  margin-top: 268px;
+  font-size: 8px;
+}
+
+.B-border {
+  background-color: #800040;
+  border: 1px ridge #262626;
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px #262626;
+  width: 43px;
+  height: 43px;
+  margin-left: 1032px;
+  margin-top: -20px;
+  font-size: 8px;
+  position: absolute;
+}
+
+.A {
+  float: initial;
+  font-family: 'Orbitron', sans-serif;
+  color: #0039e6;
+  margin-left: 1120px;
+  font-size: 15px;
+  position: absolute;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-25deg);
+}
+
+.B {
+  font-family: 'Orbitron', sans-serif;
+  color: #0039e6;
+  margin-left: 1070px;
+  margin-top: 25px;
+  font-size: 15px;
+  z-index: 1;
+  position: absolute;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-25deg);
+}
+
+.aborder{
+  position:absolute;
+  border: 2px #999999;
+  width:113px;
+  height:68px;
+  border-radius:45%;
+  margin-left:1025px;
+  margin-top:-41px;
+  z-index:-1;
+  
+      background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a6a6a6, #cccccc);
+    background: -moz-linear-gradient(#a6a6a6, #cccccc);
+    background: -o-linear-gradient(#a6a6a6, #cccccc);
+    background: linear-gradient(#a6a6a6, #cccccc); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax (must be last) */
+  
+  -ms-transform: rotate(-29deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-29deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-26deg);
+}
+
+/***********Game Image*****************/
+
+#img {
+  border: 2px inset #262626;
+  border-bottom-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  border-top-right-radius: 1%;
+  border-top-left-radius: 1%;
+  width: 320px;
+  height: 288px;
+  background-color:#009922;
+  background-repeat: no-repeat;
+  background-size: 320px 288px;
+  margin-left: 780px;
+  margin-top: 125px;
+}
+
+
+/*******Message Window Details*******/
+
+#pop {
+  max-width:100%;
+  max-height:100%;
+  height: 100px;
+  width: 330px;
+  position: fixed;
+  bottom: 50%;
+  top: 15%;
+  padding: 10px;
+  border: 6px solid;
+  border-style: ridge;
+  border-radius: 14px;
+  box-shadow: 5px 5px 5px #888888;
+  opacity: 0.9;
+  filter: alpha(opacity=60);
+  background: green;
+  z-index:5;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#3336ff, #6666ff);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3336ff, #6666ff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3336ff, #6666ff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3336ff, #6666ff);
+  /* Standard syntax (must be last) */
+}
+
+#pop h1 {
+  margin: 5%;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  font-family: VT323;
+  }
+
+#close {
+  right: 5;
+  top: 5;
+  float: right;
+  font-family: VT323;
+}
+
+.link {
+  color: #ffa31a;
+}
+
+.butn {
+  font-family: VT323;
+  color:silver;
+  border-radius:20%;
+  background-color:green;
+  border: 1px  ;
+  
+   -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+  animation-direction:alternate;
+  
+  background: linear-gradient(123deg, #242866, #246626, #663f24, #66243b, #276624, #663f24, #663f24);
+background-size: 1400% 1400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/********Top Details*************/
+
+.top_line_detail {
+  position: absolute;
+  border: 4px inset #8c8c8c;
+  border-left-color: transparent;
+  border-right-color:transparent;
+  width: 497px;
+  margin-left: 685px;
+  margin-top: -497px;
+}
+
+.top_line_detail_2 {
+  position: absolute;
+  border: 4px inset #8c8c8c;
+  border-left-color: lightgrey;
+  border-right-color:transparent;
+  width: 14px;
+  margin-left: 704px;
+  margin-top: -512px;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.top_line_detail_3 {
+  position: absolute;
+  border: 4px inset #8c8c8c;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+  width: 14px;
+  margin-left: 1140px;
+  margin-top: -512px;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+
+/************off/on ---- Head phones label************/
+
+.detailOne {
+  position: absolute;
+  border: 3px inset #cccccc;
+  border-left-color: #cccccc;
+  border-right-color: #cccccc;
+  width: .1px;
+  margin-left: 760px;
+  margin-top: -380px;
+  z-index: 0;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.detailTwo {
+  position: absolute;
+  border: 3px inset #cccccc;
+  border-left-color: #cccccc;
+  border-right-color: #ccccc;
+  width: .1px;
+  margin-left: 750px;
+  margin-top: -380px;
+  z-index: 0;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.off_on {
+  color: #a6a6a6;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  border: inset #cccccc;
+  border-radius: 50px;
+  width: 50px;
+  height: 12px;
+  margin-left: 730px;
+  margin-top: -376px;
+  z-index: 1;
+}
+
+
+/*********Phones Line Detail******/
+
+#details {
+  margin-right: 404px;
+}
+
+.detailthree {
+  position: absolute;
+  border: 2px inset #f2f2f2;
+  border-left-color: #f2f2f2f2;
+  border-right-color: #f2f2f2f2;
+  width: 4px;
+  margin-left:930px;
+  margin-top: 316px;
+  z-index: 0;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.detailfour {
+  position: absolute;
+  border: 2px inset #f2f2f2;
+  border-left-color: #f2f2f2f2;
+  border-right-color: #f2f2f2f2;
+  width: 4px;
+  margin-left: 920px;
+  margin-top: 316px;
+  z-index: 0;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.detailfive {
+  position: absolute;
+  border: 2px inset #f2f2f2;
+  border-left-color: #f2f2f2f2;
+  border-right-color: #f2f2f2f2;
+  width: 4px;
+  margin-left: 913px;
+  margin-top: 316px;
+  z-index: 0;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.phones {
+  color: #a6a6a6;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  border: inset #cccccc;
+  border-radius: 50px;
+  width: 50px;
+  height: 12px;
+  margin-left: 905px;
+  margin-top: 302px;
+  z-index: 1;
+}
+
+
+/***********Select/Start Buttons***************/
+
+#selected {
+  margin: ;
+}
+
+#startselect {
+  margin-left:2px;
+}
+
+.select  {        /***start***/
+  position: absolute;
+  margin-left: 944px;
+  margin-top: 86px;
+  z-index: -1;
+  font-size: 12px;
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+.start {        /***select****/
+  position: absolute;
+  margin-left: 880px;
+  margin-top: 86px;
+  z-index: -1;
+  font-size: 12px;
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+.select_border {
+  position: absolute;
+  border: 1px inset black;
+  border-radius: 50px;
+  background-color: darkgrey;
+  box-shadow: 1px 2px 1px #262626;
+  width: 40px;
+  height: 9px;
+  margin-left: 930px;
+  margin-top: 68px;
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+.select_border_two {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 50px;
+  height: 20px;
+  margin-left: 924px;
+  margin-top:60px;
+  z-index: -1;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #a6a6a6, #e6e6e6);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #a6a6a6, #e6e6e6);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #a6a6a6, #e6e6e6);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #a6a6a6, #e6e6e6);
+  /* Standard syntax */
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+.start_border {
+  position: absolute;
+  border: 1px inset black;
+  border-radius: 50px;
+  background-color: darkgrey;
+  box-shadow: 1px 2px 1px #262626;
+  width: 40px;
+  height: 9px;
+  margin-left: 873px;
+  margin-top: 68px;
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+.start_border_two {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 50px;
+  height: 20px;
+  margin-left: 866px;
+  margin-top: 62px;
+  z-index: -1;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #a6a6a6, #e6e6e6);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #a6a6a6, #e6e6e6);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #a6a6a6, #e6e6e6);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #a6a6a6, #e6e6e6);
+  /* Standard syntax */
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-30deg);
+}
+
+
+/******Speaker Grill******/
+
+#grill {
+  margin-left: px;
+}
+
+.slotOne {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left: 987px;
+  margin-top: 139px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotTwo {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left: 1002px;
+  margin-top: 131px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotTwoShadow {
+  position: absolute;
+  border: inset;
+  border-radius: 50px;
+  background-color: #262626;
+  width: 50px;
+  height: 1px;
+  margin-left: 1009px;
+  margin-top: 124px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+  z-index: -1;
+}
+
+.slotThree {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left:  1017px;
+  margin-top: 122px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotThreeShadow {
+  position: absolute;
+  border: inset;
+  border-radius: 50px;
+  background-color: #262626;
+  width: 50px;
+  height: 1px;
+  margin-left: 1024px;
+  margin-top: 115px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+  z-index: -1;
+}
+
+.slotFour {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left: 1034px;
+  margin-top: 114px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotFourShadow {
+  position: absolute;
+  border: inset;
+  border-radius: 50px;
+  background-color: #262626;
+  width: 50px;
+  height: 1px;
+  margin-left: 1040px;
+  margin-top: 106px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+  z-index: -1;
+}
+
+.slotFive {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left: 1047px;
+  margin-top: 105px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotFiveShadow {
+  position: absolute;
+  border: inset;
+  border-radius: 50px;
+  background-color: #262626;
+  width: 50px;
+  height: 1px;
+  margin-left: 1053px;
+  margin-top: 97px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+  z-index: -1;
+}
+
+.slotSix {
+  position: absolute;
+  border: inset #f2f2f2;
+  border-radius: 50px;
+  width: 75px;
+  height: 5px;
+  margin-left: 1063px;
+  margin-top: 95px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+}
+
+.slotSixShadow {
+  position: absolute;
+  border: inset;
+  border-radius: 50px;
+  background-color: #262626;
+  width: 50px;
+  height: 1px;
+  margin-left: 1069px;
+  margin-top: 88px;
+  -ms-transform: rotate(57deg));
+  -webkit-transform: rotate(57deg));
+  transform: rotate(57deg);
+  z-index: -1;
+}
+
+
+/*****Red line / Blue line*******/
+
+.red_line {
+  position: absolute;
+  border: 1px solid red;
+  width: 420px;
+  margin-left: 722px;
+  margin-top: -452px;
+}
+
+.blue_line {
+  position: absolute;
+  border: 1px solid blue;
+  width: 420px;
+  margin-left: 722px;
+  margin-top: -447px;
+}
+
+.matrix {
+  text-align: center;
+  color: white;
+  font-family: BenchNine;
+  font-size: 19px;
+  position: absolute;
+  background-color: #1a1a1a;
+  width: 205px;
+  height: 20px;
+  margin-left: 887px;
+  margin-top: -463px;
+  padding: 5px;
+}
+
+
+/****************Nintendo Logo********/
+
+.logo {
+  margin: auto;
+  margin-left: 770px;
+  margin-top: 42px;
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  font-size: 22px;
+  color: #0039e6;
+}
+
+.logo p {
+  /*******Trademark*****/
+  margin-left: 136px;
+  margin-top: -24px;
+  font-size: 10px;
+}
+
+.logo .GB_text {
+  margin-left: 33px;
+  margin-top: -5px;
+}
+
+.logo .tendo {
+  position: absolute;
+  margin-left: -61px;
+  margin-top: 1px;
+  font-size: 18px;
+  font: 18px "Pretendo", Helvetica;
+}
